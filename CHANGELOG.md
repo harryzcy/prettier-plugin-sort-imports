@@ -2,6 +2,11 @@
 
 
 ---
+### 6.0.2
+
+#### Bug fixes
+- **Fix recognising mandatory prefix built-in imports** [#389](https://github.com/trivago/prettier-plugin-sort-imports/pull/389) by [@TomFryersMidsummer](https://github.com/TomFryersMidsummer) - Fixed detection of Node.js built-in modules that are only accessible with the `node:` prefix (like `node:test`, `node:sqlite`) to be correctly recognized when using `<BUILTIN_MODULES>` placeholder
+
 ### 6.0.1
 
 #### Bug fixes
